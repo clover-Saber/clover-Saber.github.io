@@ -13,7 +13,7 @@ title                    : "Hao Yu's Homepage"
 title_separator          : "-"
 name                     : &name "俞浩 Hao Yu"
 description              : &description "Ph.D Student, Tongji University"
-url                      : https://clover_Saber.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://clover-Saber.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "clover_Saber/clover_Saber.github.io"
 
