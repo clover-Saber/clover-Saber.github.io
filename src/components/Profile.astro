@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets";
+import portrait from "@/assets/profile-yuhao.jpg";
+import { profile } from "@/data/profile";
+import SocialList from "@/components/SocialList.astro";
+---
+<section class="flex flex-col-reverse items-start gap-8 sm:flex-row sm:justify-between" data-pagefind-body>
+  <div>
+    <h1 class="title mb-6" data-pagefind-meta="title">{profile.name}</h1>
+    <p class="mb-2">{profile.bio}</p>
+    <p class="text-muted mb-6">{profile.location}</p>
+    <SocialList />
+  </div>
+  <Image src={portrait} alt={profile.name} width={144} format="webp" quality={85} loading="eager" class="h-auto w-28 shrink-0 rounded-sm sm:w-36" />
+</section>
