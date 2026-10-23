@@ -1,0 +1,8 @@
+---
+import { Icon } from "astro-icon/components";
+import { profile } from "@/data/profile";
+---
+<ul class="flex flex-wrap items-center gap-x-5 gap-y-3" aria-label="联系方式">
+  <li><a class="hover:text-link inline-flex items-center gap-2" href={`mailto:${profile.email}`}><Icon name="mdi:email-outline" class="h-5 w-5" aria-hidden="true" />{profile.email}</a></li>
+  <li><a class="hover:text-link inline-flex items-center gap-2" href={profile.github} target="_blank" rel="noreferrer"><Icon name="mdi:github" class="h-5 w-5" aria-hidden="true" />GitHub</a></li>
+</ul>
